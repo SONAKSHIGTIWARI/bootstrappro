@@ -1,165 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Table Example</title>
-  <!-- Add Bootstrap CSS link -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <!--div class="container mt-5">
-    <h2>Bootstrap Table</h2>
-    <table class="table table-striped table-borderedn text text-center table-hover">
-      <thead class="bg bg-dark text text-light text-center">
-        <tr>
-          <th>Sr.no</th>
-          <th>Name</th>
-          <th>Age</th>
-          <th>City</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="alert alert-success">
-          <td>1</td>
-          <td>John Doe</td>
-          <td>28</td>
-          <td>New York</td>
-          <td>Active</td>
-        </tr>
-        <tr class="alert alert-warning">
-          <td>2</td>
-          <td>Jane Smith</td>
-          <td>34</td>
-          <td>Los Angeles</td>
-          <td>Pending</td>
-        </tr>
-        <tr class="alert alert-danger">
-          <td>3</td>
-          <td>Michael Brown</td>
-          <td>42</td>
-          <td>Chicago</td>
-          <td>Inactive</td>
-        </tr>
-        <tr class="alert alert-info">
-            <td>4</td>
-            <td>mary Tesla</td>
-            <td>22</td>
-            <td>England</td>
-            <td>Waiting</td>
-          </tr>
-      </tbody>
-    </table>
-  </!--div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <class="container">
+            <a class="navbar-brand" href="#">Delicious Bites</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </button>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-  <class="card" style="width: 18rem;">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="WhatsApp Image 2024-10-30 at 23.14.27.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Product 1</h5>
-              <p class="card-text">High-quality product with amazing <br>features.</p>
-              <p class="text text-success">$29.99</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a><br>
-              <a href="#"><i class="bi bi-whatsapp"></i></a>  
-              <a href="#"><i class="bi bi-google"></i></a>
-              <a href="#"></a><i class="bi bi-github"></i></a>
-
+    </nav>
+    
+        <!-- Hero Section -->
+        <div class="jumbotron bg-dark text-white text-center py-5">
+            <div class="container">
+                <h1 class="display-4">Welcome to Delicious Bites</h1>
+                <p class="lead">Where every bite tells a story</p>
             </div>
-          </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="WhatsApp Image 2024-10-30 at 23.14.27.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Product 1</h5>
-              <p class="card-text">High-quality product with amazing <br>features.</p>
-              <p class="text text-success">$29.99</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a><br>
-              <a href="#"><i class="bi bi-whatsapp"></i></a>  
-              <a href="#"><i class="bi bi-google"></i></a>
-              <a href="#"></a><i class="bi bi-github"></i></a>
+    
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>About Us</h2>
+                        <p>At Delicious Bites, we serve mouthwatering dishes made from fresh ingredients, crafted by our experienced chefs. Join us for an unforgettable culinary journey.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="sw1.png" class="img-fluid rounded" alt="About us">
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="WhatsApp Image 2024-10-30 at 23.14.27.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Product 1</h5>
-              <p class="card-text">High-quality product with amazing <br>features.</p>
-              <p class="text text-success">$29.99</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a><br>
-              <a href="#"><i class="bi bi-whatsapp"></i></a>  
-              <a href="#"><i class="bi bi-google"></i></a>
-              <a href="#"></a><i class="bi bi-github"></i></a>
-
+        </section>
+    
+        <!-- Menu Section -->
+        <section id="menu" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">Our Menu</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="su1.jpg" class="card-img-top" alt="Dish">
+                            <div class="card-body">
+                                <h5 class="card-title">salaad</h5>
+                                <p class="card-text">$10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="top-view-food-arrangement-wooden-background.jpg" class="card-img-top" alt="Dish">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>machieno
+                                <p class="card-text">$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="ad1.jpg" class="card-img-top" alt="Dish">
+                            <div class="card-body">
+                                <h5 class="card-title">burger</h5>
+                                <p class="card-text">$15.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="WhatsApp Image 2024-10-30 at 23.14.27.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Product 1</h5>
-              <p class="card-text">High-quality product with amazing <br>features.</p>
-              <p class="text text-success">$29.99</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a><br>
-              <a href="#"><i class="bi bi-whatsapp p-6"></i></a>  
-              <a href="#"><i class="bi bi-google p-6"></i></a>
-              <a href="#"></a><i class="bi bi-github p-6"></i></a>
-
+        </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Address</h4>
+                        <p>123 Food Street, Flavor Town</p>
+                        <h4>Phone</h4>
+                        <p>(123) 456-7890</p>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Send Message</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div-->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="container mt-5">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body bg bg-primary">
-              <p class="card-header text text-light" style="box-shadow: 3px 3px 2px black;">Card Title</p>
-              <h5 class="card-title text text-light m-7">Primary Card Varient</h5>
-              <p class="card-text  text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident sit ducimus quisquam eos quas harum! Blanditiis laudantium impedit perspiciatis.</p>
-              
-            </div>
-          </div>
-        </div>
-      
-      </div>
-      <div class="col">
-        <div class="container mt-5">
-          <div class="card" style="width: 18rem; box-shadow:2px 2px 2px blanchedalmond;">
-            <div class="card-body bg bg-secondary">
-              <p class="card-header text text-light" style="box-shadow: 3px 3px 2px black;">Card Title</p>
-              <h5 class="card-title text text-light m-7">Primary Card Varient</h5>
-              <p>
-                <kbd title="world health organization">who</kbd>
-              </p>
-              <p class="card-text  text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident sit ducimus quisquam eos quas harum! Blanditiis laudantium impedit perspiciatis.</p>
-              
-            </div>
-          </div>
-        </div>
-      
-      </div>
-    </div>
-  </div>
-
-
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+        </footer>
+    
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
